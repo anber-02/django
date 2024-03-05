@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Smart Home X</title>
+        {% load static %}
+        <link type="text/css" href="{% static 'style.css' %}" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="dashboard">
+        <header>
+          <div>
+            <div class="heading">
+              <h5 class="date">7 Feb 2024</h5>
+              <h2 class="title">Smart Home X</h2>
+            </div>
+          </div>
+      
+        </header>
+        <section>
+          <!-- Category -->
+          <div class="category">
+            <ul>
+              <li><a href="#!" class="active">Sala</a></li>
+              <li><a href="#!">Cocina</a></li>
+              <li><a href="#!">Comedor</a></li>
+              <li><a href="#!">Cuarto</a></li>
+            </ul>
+          </div>
+          <!-- Appliances -->
+          <div class="appliances">
+      
+            <div class="appliance">
+              <input type="checkbox" name="a" id="a">
+              <label for="a">
+                <i class="l"></i>
+                <strong>Lámpara</strong>
+                <small></small>
+              </label>
+            </div>
+      
+            <div class="appliance">
+              <input type="checkbox" name="a" id="b">
+              <label for="b">
+                <i class="r"></i>
+                <strong>Movimiento</strong>
+                <small></small>
+              </label>
+            </div>
+      
+            <div class="appliance">
+              <input type="checkbox" name="a" id="c">
+              <label for="c">
+                <i class="a"></i>
+                <strong>Humo/Gas</strong>
+                <small></small>
+              </label>
+            </div>
+      
+          </div>
+      
+        </section>
+      </div>
+    
+    </body>
